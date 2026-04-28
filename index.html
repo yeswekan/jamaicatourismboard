@@ -1,24 +1,56 @@
-<h2 class="sr-only">Email blast template mockup for Jamaica Tourism Board MICE division, with brand header, beach hero illustration including event pavilion, headline targeting meeting planners, three feature columns covering meeting space, incentives, and access, featured FAM trip offer, trade show calendar, and brand footer.</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jamaica Tourism Board — Meetings &amp; Incentives</title>
+<style>
+:root {
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f7f7f5;
+  --color-background-tertiary: #f0eee6;
+  --color-background-warning: #faf3e0;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #5a5a58;
+  --color-text-tertiary: #8a8a87;
+  --color-text-warning: #8a6914;
+  --color-border-tertiary: #e5e3dc;
+  --border-radius-md: 6px;
+  --border-radius-lg: 10px;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+body {
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  background: var(--color-background-tertiary);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+</style>
+</head>
+<body>
+<h2 class="sr-only">Email blast template mockup for Jamaica Tourism Board MICE division.</h2>
 <style>
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
 .email-shell{max-width:600px;margin:0 auto;background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden}
-.feat-icon{width:46px;height:46px;margin:0 auto 12px;background:rgba(254,209,0,0.16);border-radius:50%;display:flex;align-items:center;justify-content:center}
+.feat-icon{width:46px;height:46px;margin:0 auto 12px;background:rgba(237,16,137,0.10);border-radius:50%;display:flex;align-items:center;justify-content:center}
 .soc{display:inline-flex;width:30px;height:30px;background:rgba(255,255,255,0.15);border-radius:50%;align-items:center;justify-content:center;color:#fff;font-size:13px;margin:0 4px;font-weight:500;text-decoration:none}
 .stat{font-weight:500;color:var(--color-text-primary)}
+.contact-card{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:22px 14px;text-align:center}
+.contact-photo{width:84px;height:84px;border-radius:50%;object-fit:cover;margin:0 auto 14px;display:block;border:2px solid #ED1089}
 </style>
-
 <div style="background:var(--color-background-tertiary);padding:1.25rem 0">
   <div class="email-shell">
-
     <div style="padding:9px 16px;font-size:11px;color:var(--color-text-tertiary);text-align:center;border-bottom:0.5px solid var(--color-border-tertiary)">
       Trouble viewing? <a href="#" style="color:var(--color-text-tertiary)">Open in browser</a>
     </div>
-
-    <div style="background:#006B3F;padding:24px 24px 22px;text-align:center">
-      <div style="color:#FED100;font-size:24px;font-weight:500;letter-spacing:6px;font-family:var(--font-serif)">Jamaica</div>
-      <div style="color:rgba(255,255,255,0.78);font-size:11px;letter-spacing:2.5px;margin-top:7px">Conventions &amp; incentives bureau</div>
+    <div style="background:#FFFFFF;padding:30px 24px 22px;text-align:center">
+      <img src="data:image/png;base64,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" alt="Jamaica" style="max-width:240px;width:60%;height:auto;display:block;margin:0 auto"/>
+      <div style="color:#5F5E5A;font-size:11px;letter-spacing:2.5px;margin-top:14px">Conventions &amp; incentives bureau</div>
     </div>
-
+    <div style="height:4px;background:#ED1089"></div>
     <div style="line-height:0">
       <svg viewBox="0 0 600 280" width="100%" preserveAspectRatio="xMidYMid slice" style="display:block">
         <rect x="0" y="0" width="600" height="160" fill="#A8E0E0"/>
@@ -31,7 +63,6 @@
         <path d="M 0 195 Q 50 193 100 195 T 200 195 T 300 195 T 400 195 T 500 195 T 600 195" stroke="#fff" stroke-width="0.8" fill="none" opacity="0.35"/>
         <path d="M 0 215 Q 200 198 400 218 T 600 210 L 600 280 L 0 280 Z" fill="#F4D9A8"/>
         <path d="M 0 245 Q 150 236 300 246 T 600 240 L 600 280 L 0 280 Z" fill="#E8C788"/>
-
         <g transform="translate(258, 222)">
           <polygon points="-3,12 50,12 23.5,0" fill="#FAFAF7" stroke="#3D2817" stroke-width="0.8"/>
           <rect x="2" y="12" width="42" height="16" fill="#FFFDF6" stroke="#3D2817" stroke-width="0.7"/>
@@ -39,9 +70,8 @@
           <line x1="44" y1="12" x2="44" y2="32" stroke="#3D2817" stroke-width="0.7"/>
           <rect x="18" y="18" width="10" height="10" fill="#7DD3D8" stroke="#3D2817" stroke-width="0.5"/>
           <line x1="23" y1="-3" x2="23" y2="0" stroke="#3D2817" stroke-width="0.6"/>
-          <polygon points="23,-3 31,-1 23,1" fill="#FED100"/>
+          <polygon points="23,-3 31,-1 23,1" fill="#ED1089"/>
         </g>
-
         <path d="M 75 270 C 73 230, 68 190, 62 165" stroke="#3D2817" stroke-width="5" fill="none" stroke-linecap="round"/>
         <path d="M 62 165 Q 30 150 8 165" stroke="#0F4F25" stroke-width="3.5" fill="none" stroke-linecap="round"/>
         <path d="M 62 165 Q 95 145 120 155" stroke="#0F4F25" stroke-width="3.5" fill="none" stroke-linecap="round"/>
@@ -63,55 +93,67 @@
         <path d="M 380 95 L 408 92 M 402 89 L 408 92 L 402 95 M 393 90 L 393 94" stroke="#3D2817" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </div>
-
     <div style="padding:34px 32px 6px;text-align:center">
-      <div style="font-size:11px;color:#006B3F;letter-spacing:2.5px;font-weight:500;margin-bottom:14px">Meetings &amp; incentives 2026</div>
+      <div style="font-size:11px;color:#ED1089;letter-spacing:2.5px;font-weight:500;margin-bottom:14px">Meetings &amp; incentives 2026</div>
       <h1 style="font-size:26px;font-weight:500;margin:0 0 14px;line-height:1.25">Where business meets paradise</h1>
       <p style="font-size:15px;color:var(--color-text-secondary);line-height:1.65;margin:0 auto;max-width:460px">World-class venues, direct US gateways, and incentive experiences your delegates will talk about for years. Make Jamaica your next group destination.</p>
     </div>
-
     <div style="padding:24px 32px 28px;text-align:center">
-      <a href="#" style="display:inline-block;background:#006B3F;color:#FED100;padding:14px 38px;text-decoration:none;border-radius:var(--border-radius-md);font-weight:500;font-size:14px;letter-spacing:0.3px">Request a proposal</a>
+      <a href="#" style="display:inline-block;background:#ED1089;color:#fff;padding:14px 38px;text-decoration:none;border-radius:var(--border-radius-md);font-weight:500;font-size:14px;letter-spacing:0.3px">Request a proposal</a>
     </div>
-
     <div style="padding:0 18px 28px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px">
       <div style="text-align:center;padding:14px 6px">
         <div class="feat-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006B3F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M12 16 L 12 20 M 8 20 L 16 20"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ED1089" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M12 16 L 12 20 M 8 20 L 16 20"/></svg>
         </div>
         <div style="font-size:14px;font-weight:500;margin-bottom:4px">Meeting space</div>
         <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.5"><span class="stat">4,000+</span> delegate plenary capacity at MoBay Convention Centre</div>
       </div>
       <div style="text-align:center;padding:14px 6px">
         <div class="feat-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006B3F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 L 14.5 9 L 21 9.5 L 16 14 L 17.5 20.5 L 12 17 L 6.5 20.5 L 8 14 L 3 9.5 L 9.5 9 Z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ED1089" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 L 14.5 9 L 21 9.5 L 16 14 L 17.5 20.5 L 12 17 L 6.5 20.5 L 8 14 L 3 9.5 L 9.5 9 Z"/></svg>
         </div>
         <div style="font-size:14px;font-weight:500;margin-bottom:4px">Incentive experiences</div>
         <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.5">Catamaran sails, Blue Mountain coffee tours, beach galas</div>
       </div>
       <div style="text-align:center;padding:14px 6px">
         <div class="feat-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006B3F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12 L 21 4 L 17 21 L 12 13 L 5 11 Z"/><path d="M12 13 L 21 4"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ED1089" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12 L 21 4 L 17 21 L 12 13 L 5 11 Z"/><path d="M12 13 L 21 4"/></svg>
         </div>
         <div style="font-size:14px;font-weight:500;margin-bottom:4px">Effortless access</div>
         <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.5">Direct flights from <span class="stat">25+</span> gateways · USD &amp; English</div>
       </div>
     </div>
-
-    <div style="margin:0 32px;padding:20px 22px;background:var(--color-background-warning);border-radius:var(--border-radius-lg)">
-      <div style="font-size:11px;color:var(--color-text-warning);letter-spacing:1.5px;font-weight:500;margin-bottom:6px">Hosted FAM trip · Apply by May 22</div>
+    <div style="margin:0 32px;padding:20px 22px;background:rgba(237,16,137,0.08);border-radius:var(--border-radius-lg)">
+      <div style="font-size:11px;color:#A60964;letter-spacing:1.5px;font-weight:500;margin-bottom:6px">Hosted FAM trip · Apply by May 22</div>
       <div style="font-size:17px;font-weight:500;margin-bottom:6px">Site inspection · Montego Bay, June 18–22</div>
       <div style="font-size:13px;color:var(--color-text-secondary);line-height:1.55;margin-bottom:12px">Four nights for qualified planners with confirmed RFPs of 75+ peak rooms. Includes airfare, AAA Four Diamond accommodations, and three property tours.</div>
-      <a href="#" style="font-size:13px;color:#006B3F;text-decoration:none;font-weight:500">Submit qualifications →</a>
+      <a href="#" style="font-size:13px;color:#ED1089;text-decoration:none;font-weight:500">Submit qualifications →</a>
     </div>
-
     <div style="padding:30px 32px 8px">
-      <div style="font-size:16px;font-weight:500;margin-bottom:4px">Meet the Jamaica team</div>
-      <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:14px">Find us on the trade show floor this season</div>
-
+      <div style="font-size:16px;font-weight:500;margin-bottom:4px">Your Jamaica MICE contacts</div>
+      <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:18px">Direct line to the team that builds your program</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        <div class="contact-card">
+          <img src="data:image/jpeg;base64,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" alt="Philip Rose" class="contact-photo"/>
+          <div style="font-size:15px;font-weight:500;margin-bottom:3px">Philip Rose</div>
+          <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.4;margin-bottom:14px">Deputy Director of Tourism</div>
+          <a href="#" style="font-size:12px;color:#ED1089;text-decoration:none;font-weight:500">Email Philip →</a>
+        </div>
+        <div class="contact-card">
+          <img src="data:image/jpeg;base64,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" alt="John Woolcock" class="contact-photo"/>
+          <div style="font-size:15px;font-weight:500;margin-bottom:3px">John Woolcock</div>
+          <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.4;margin-bottom:14px">Manager, Groups &amp; Conventions</div>
+          <a href="#" style="font-size:12px;color:#ED1089;text-decoration:none;font-weight:500">Email John →</a>
+        </div>
+      </div>
+    </div>
+    <div style="padding:30px 32px 8px">
+      <div style="font-size:16px;font-weight:500;margin-bottom:4px">Find us on the road</div>
+      <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:14px">The Jamaica MICE team on the trade show circuit</div>
       <div style="display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:center;padding:11px 0;border-bottom:0.5px solid var(--color-border-tertiary)">
-        <div style="text-align:center;padding:8px 0;background:#006B3F;border-radius:var(--border-radius-md)">
-          <div style="font-size:11px;color:#FED100;font-weight:500;letter-spacing:1px">May</div>
+        <div style="text-align:center;padding:8px 0;background:#ED1089;border-radius:var(--border-radius-md)">
+          <div style="font-size:11px;color:#FFE5F0;font-weight:500;letter-spacing:1px">May</div>
           <div style="font-size:20px;color:#fff;font-weight:500;line-height:1.1">19</div>
         </div>
         <div>
@@ -119,10 +161,9 @@
           <div style="font-size:12px;color:var(--color-text-secondary)">Messe Frankfurt · Booth F340 · May 19–21</div>
         </div>
       </div>
-
       <div style="display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:center;padding:11px 0;border-bottom:0.5px solid var(--color-border-tertiary)">
-        <div style="text-align:center;padding:8px 0;background:#006B3F;border-radius:var(--border-radius-md)">
-          <div style="font-size:11px;color:#FED100;font-weight:500;letter-spacing:1px">Jun</div>
+        <div style="text-align:center;padding:8px 0;background:#ED1089;border-radius:var(--border-radius-md)">
+          <div style="font-size:11px;color:#FFE5F0;font-weight:500;letter-spacing:1px">Jun</div>
           <div style="font-size:20px;color:#fff;font-weight:500;line-height:1.1">03</div>
         </div>
         <div>
@@ -130,10 +171,9 @@
           <div style="font-size:12px;color:var(--color-text-secondary)">Bahamas · CHTA's flagship buyer-supplier event</div>
         </div>
       </div>
-
       <div style="display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:center;padding:11px 0">
-        <div style="text-align:center;padding:8px 0;background:#006B3F;border-radius:var(--border-radius-md)">
-          <div style="font-size:11px;color:#FED100;font-weight:500;letter-spacing:1px">Oct</div>
+        <div style="text-align:center;padding:8px 0;background:#ED1089;border-radius:var(--border-radius-md)">
+          <div style="font-size:11px;color:#FFE5F0;font-weight:500;letter-spacing:1px">Oct</div>
           <div style="font-size:20px;color:#fff;font-weight:500;line-height:1.1">13</div>
         </div>
         <div>
@@ -142,22 +182,22 @@
         </div>
       </div>
     </div>
-
-    <div style="background:#006B3F;padding:30px 32px;text-align:center;margin-top:24px">
-      <div style="color:#FED100;font-size:18px;letter-spacing:5px;font-weight:500;margin-bottom:6px;font-family:var(--font-serif)">Jamaica</div>
+    <div style="background:#1F1F1F;padding:32px 32px;text-align:center;margin-top:28px">
+      <img src="data:image/png;base64,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" alt="Jamaica" style="max-width:160px;width:50%;height:auto;display:block;margin:0 auto 14px"/>
       <div style="color:rgba(255,255,255,0.85);font-size:11px;letter-spacing:2px;margin-bottom:10px">Conventions &amp; incentives bureau</div>
-      <div style="color:rgba(255,255,255,0.7);font-size:11px;line-height:1.6;margin-bottom:16px">64 Knutsford Boulevard, Kingston 5 · meetings@visitjamaica.com</div>
+      <div style="color:rgba(255,255,255,0.65);font-size:11px;line-height:1.6;margin-bottom:16px">64 Knutsford Boulevard, Kingston 5 · meetings@visitjamaica.com</div>
       <div style="margin-bottom:16px">
         <a href="#" class="soc">f</a>
         <a href="#" class="soc">IG</a>
         <a href="#" class="soc">in</a>
         <a href="#" class="soc">YT</a>
       </div>
-      <div style="color:rgba(255,255,255,0.55);font-size:11px;line-height:1.7">
+      <div style="color:rgba(255,255,255,0.5);font-size:11px;line-height:1.7">
         Sent to meeting professionals on the Jamaica trade list<br>
         <a href="#" style="color:rgba(255,255,255,0.78);text-decoration:underline">Unsubscribe</a> &nbsp;·&nbsp; <a href="#" style="color:rgba(255,255,255,0.78);text-decoration:underline">Update preferences</a>
       </div>
     </div>
-
   </div>
 </div>
+</body>
+</html>
